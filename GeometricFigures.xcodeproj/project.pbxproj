@@ -6,14 +6,25 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		E44A1E252CAED0B300A2AF08 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E44A1E1F2CAED0B300A2AF08 /* Preview Assets.xcassets */; };
+		E44A1E262CAED0B300A2AF08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E44A1E212CAED0B300A2AF08 /* Assets.xcassets */; };
+		E44A1E282CAED0B300A2AF08 /* GeometricFiguresApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44A1E232CAED0B300A2AF08 /* GeometricFiguresApp.swift */; };
+		E44A1E2B2CAED39100A2AF08 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44A1E2A2CAED39100A2AF08 /* CircleView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		E44A1E0E2CAECB9F00A2AF08 /* GeometricFigures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeometricFigures.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E44A1E1F2CAED0B300A2AF08 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E44A1E212CAED0B300A2AF08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E44A1E232CAED0B300A2AF08 /* GeometricFiguresApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometricFiguresApp.swift; sourceTree = "<group>"; };
+		E44A1E2A2CAED39100A2AF08 /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		E44A1E102CAECB9F00A2AF08 /* GeometricFigures */ = {
+		E44A1E2D2CAED48600A2AF08 /* Model */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = GeometricFigures;
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -32,7 +43,7 @@
 		E44A1E052CAECB9F00A2AF08 = {
 			isa = PBXGroup;
 			children = (
-				E44A1E102CAECB9F00A2AF08 /* GeometricFigures */,
+				E44A1E242CAED0B300A2AF08 /* GeometricFigures */,
 				E44A1E0F2CAECB9F00A2AF08 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +54,34 @@
 				E44A1E0E2CAECB9F00A2AF08 /* GeometricFigures.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		E44A1E202CAED0B300A2AF08 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E44A1E1F2CAED0B300A2AF08 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E44A1E242CAED0B300A2AF08 /* GeometricFigures */ = {
+			isa = PBXGroup;
+			children = (
+				E44A1E232CAED0B300A2AF08 /* GeometricFiguresApp.swift */,
+				E44A1E2D2CAED48600A2AF08 /* Model */,
+				E44A1E292CAED33E00A2AF08 /* Views */,
+				E44A1E202CAED0B300A2AF08 /* Preview Content */,
+				E44A1E212CAED0B300A2AF08 /* Assets.xcassets */,
+			);
+			path = GeometricFigures;
+			sourceTree = "<group>";
+		};
+		E44A1E292CAED33E00A2AF08 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E44A1E2A2CAED39100A2AF08 /* CircleView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -61,7 +100,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				E44A1E102CAECB9F00A2AF08 /* GeometricFigures */,
+				E44A1E2D2CAED48600A2AF08 /* Model */,
 			);
 			name = GeometricFigures;
 			packageProductDependencies = (
@@ -109,6 +148,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E44A1E252CAED0B300A2AF08 /* Preview Assets.xcassets in Resources */,
+				E44A1E262CAED0B300A2AF08 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +160,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E44A1E2B2CAED39100A2AF08 /* CircleView.swift in Sources */,
+				E44A1E282CAED0B300A2AF08 /* GeometricFiguresApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
